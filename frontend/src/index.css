@@ -16,6 +16,11 @@ a.active hr {
   font-style: normal;
 }
 
+img {
+  content-visibility: auto;
+}
+
+
 ::-webkit-scrollbar{
     display: none;
 }

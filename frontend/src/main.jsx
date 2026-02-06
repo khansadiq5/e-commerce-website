@@ -4,11 +4,13 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import ShopContextProvider from './context/ShopContext'
+import ScrollToTop from "./components/ScrollToTop";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+    <ScrollToTop />
     <ShopContextProvider>
-        <App />
+      <App />
     </ShopContextProvider>
   </BrowserRouter>
 )
